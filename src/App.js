@@ -1,5 +1,4 @@
 import './App.css';
-import React, { Component } from 'react';
 
 function Header(){
   return <header>
@@ -25,18 +24,16 @@ function Article(){
 }
 
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Header></Header>
-        
-        <Nav></Nav>
+function App() {
+  return (
+    <div>
+      <Header></Header>
+      
+      <Nav></Nav>
 
-        <Article></Article>
-      </div>
-    );
-  }
+      <Article></Article>
+    </div>
+  );
 }
 
 export default App;
